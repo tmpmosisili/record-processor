@@ -1,0 +1,57 @@
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title>Please upload your document</title>
+
+<link th:rel="stylesheet"
+	th:href="@{/webjars/bootstrap/4.0.0-2/css/bootstrap.min.css} " />
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<div>
+					<div>
+						<h2>Please Upload your bank statement</h2>
+					</div>
+					<form method="POST" enctype="multipart/form-data"
+						th:action="@{/upload}">
+						<table>
+							<tr>
+								<td>File to upload:</td>
+								<td><input type="file" name="file" /></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td><input type="submit" value="Process" /></td>
+							</tr>
+						</table>
+						<div>File Type</div>
+						<select name="filetype">
+							<option
+								th:each="filetypeOpt : ${T(com.surepay.enums.FileTypes).values()}"
+								th:value="${filetypeOpt}" th:text="${filetypeOpt.displayValue}">
+							</option>
+					</form>
+				</div>
+
+				<div>
+					<ul>
+						<li th:each="file : ${files}"><a th:href="${file}"
+							th:text="${file}" /></li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	
+	
+
+
+	<script th:src="@{/webjars/jquery/3.0.0/jquery.min.js}"></script>
+	<script th:src="@{/webjars/popper.js/1.12.9-1/umd/popper.min.js}"></script>
+	<script th:src="@{/webjars/bootstrap/4.0.0-2/js/bootstrap.min.js}"></script>
+</body>
+</html>
