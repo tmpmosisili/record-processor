@@ -18,6 +18,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Component;
 
+import com.surepay.exceptions.StorageFileNotFoundException;
 import com.surepay.model.BankStatement;
 import com.surepay.model.ExceptionReport;
 import com.surepay.utils.Utils;
@@ -26,7 +27,6 @@ import com.univocity.parsers.common.processor.AbstractRowProcessor;
 import com.univocity.parsers.csv.CsvParser;
 import com.univocity.parsers.csv.CsvParserSettings;
 
-//@ComponentScan(basePackages = {"com.surepay.model"})
 @Component("csvImplmentation")
 public class CsvFileStrategyImplimentation implements FileStrategy {
 	
@@ -53,7 +53,7 @@ public class CsvFileStrategyImplimentation implements FileStrategy {
 		settings.getFormat().setLineSeparator("\n");
 		settings.setIgnoreLeadingWhitespaces(false);
 		settings.setIgnoreTrailingWhitespaces(false);
-		settings.setSkipEmptyLines(false);
+		settings.setSkipEmptyLines(true);
 		settings.setColumnReorderingEnabled(false);
 		settings.setHeaderExtractionEnabled(true);
 

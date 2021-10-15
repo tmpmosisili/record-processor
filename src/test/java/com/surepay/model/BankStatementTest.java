@@ -13,12 +13,12 @@ public class BankStatementTest {
     }
 	
 	@Test
-	public void whenNonPublicField_thenReflectionTestUtilsSetField() {
+	public void TestGetters() {
 		BankStatement bankStatement = new BankStatement();
 	    ReflectionTestUtils.setField(bankStatement, "reference", "1");
 	    ReflectionTestUtils.setField(bankStatement, "accountNumber", "123");
 	    ReflectionTestUtils.setField(bankStatement, "description", "SurePay");
-	    ReflectionTestUtils.setField(bankStatement, "startBalance", 843.00);
+	    ReflectionTestUtils.setField(bankStatement, "startBalance", 843.00); 
 	    ReflectionTestUtils.setField(bankStatement, "mutation", 941.00);
 	    ReflectionTestUtils.setField(bankStatement, "endBalance", 650.00);
 	 

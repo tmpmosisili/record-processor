@@ -1,0 +1,1408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_ORqnkC0EEeymDfdGR2qsSg">
+  <modelElement href="surepay-assignment.uml#_OsHH4C0EEeymDfdGR2qsSg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PKV8AC0EEeymDfdGR2qsSg" sourceAnchor="560.0,100.0" targetAnchor="94.0,154.0" target="_PMYjYC0EEeymDfdGR2qsSg" source="_PKgUEC0EEeymDfdGR2qsSg">
+    <modelElement href="surepay-assignment.uml#_OzMnUC0EEeymDfdGR2qsSg"/>
+    <bendpoints xmi:id="_jzlmAC0GEeymDfdGR2qsSg" sourceX="821" sourceY="1" targetX="-6" targetY="201"/>
+    <stereotypes xmi:id="_PKa0gS0EEeymDfdGR2qsSg" name="Reference">
+      <modelElement href="surepay-assignment.uml#_OzNOYC0EEeymDfdGR2qsSg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PKZmYC0EEeymDfdGR2qsSg" text="">
+      <visualProperties xmi:id="_PjZVMC0EEeymDfdGR2qsSg" position="-46.0,-65.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_PKaNcC0EEeymDfdGR2qsSg" aggregationKind="NONE" name="">
+      <modelElement href="surepay-assignment.uml#_OzMnUS0EEeymDfdGR2qsSg"/>
+      <visualProperties xmi:id="_PjYHEy0EEeymDfdGR2qsSg" position="52.0,0.0"/>
+      <visibility xmi:id="_PKcCoC0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PKbbkC0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PKa0gC0EEeymDfdGR2qsSg" aggregationKind="NONE" name="storageService" navigable="true">
+      <modelElement href="surepay-assignment.uml#_OyYvAi0EEeymDfdGR2qsSg"/>
+      <visualProperties xmi:id="_PjZVMS0EEeymDfdGR2qsSg" position="-119.0,36.0"/>
+      <visibility xmi:id="_PKcCoi0EEeymDfdGR2qsSg" label="-"/>
+      <cardinality xmi:id="_PKcCoS0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PKd30C0EEeymDfdGR2qsSg" sourceAnchor="0.0,115.0" targetAnchor="391.0,85.0" target="_PMClIC0EEeymDfdGR2qsSg" source="_PKgUEC0EEeymDfdGR2qsSg">
+    <modelElement href="surepay-assignment.uml#_OzNOYS0EEeymDfdGR2qsSg"/>
+    <bendpoints xmi:id="_jzlmAS0GEeymDfdGR2qsSg" sourceX="-700" targetY="300"/>
+    <stereotypes xmi:id="_PKd30S0EEeymDfdGR2qsSg" name="Reference">
+      <modelElement href="surepay-assignment.uml#_OzN1cS0EEeymDfdGR2qsSg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PKd30i0EEeymDfdGR2qsSg" text="">
+      <visualProperties xmi:id="_PjajUC0EEeymDfdGR2qsSg" position="1.0,-63.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_PKd30y0EEeymDfdGR2qsSg" aggregationKind="NONE" name="">
+      <modelElement href="surepay-assignment.uml#_OzN1cC0EEeymDfdGR2qsSg"/>
+      <visualProperties xmi:id="_PjZ8QC0EEeymDfdGR2qsSg" position="-60.0,2.0"/>
+      <visibility xmi:id="_PKd31C0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PKd31S0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PKd31i0EEeymDfdGR2qsSg" aggregationKind="NONE" name="csvFileStrategy" navigable="true">
+      <modelElement href="surepay-assignment.uml#_OyZWEi0EEeymDfdGR2qsSg"/>
+      <visualProperties xmi:id="_PjajUS0EEeymDfdGR2qsSg" position="-115.99999999999989,40.99999999999966"/>
+      <visibility xmi:id="_PKd31y0EEeymDfdGR2qsSg" label="-"/>
+      <cardinality xmi:id="_PKd32C0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PKfF8C0EEeymDfdGR2qsSg" source="_PKgUEC0EEeymDfdGR2qsSg">
+    <modelElement href="surepay-assignment.uml#_OzN1ci0EEeymDfdGR2qsSg"/>
+    <stereotypes xmi:id="_PKfF8S0EEeymDfdGR2qsSg" name="Reference">
+      <modelElement href="surepay-assignment.uml#_OzOcgC0EEeymDfdGR2qsSg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PKfF8i0EEeymDfdGR2qsSg" text=""/>
+    <sourceRole xmi:id="_PKfF8y0EEeymDfdGR2qsSg" aggregationKind="NONE" name="">
+      <modelElement href="surepay-assignment.uml#_OzN1cy0EEeymDfdGR2qsSg"/>
+      <visibility xmi:id="_PKfF9C0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PKfF9S0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PKfF9i0EEeymDfdGR2qsSg" aggregationKind="NONE" name="exceptionReport" navigable="true">
+      <modelElement href="surepay-assignment.uml#_OyakMC0EEeymDfdGR2qsSg"/>
+      <visibility xmi:id="_PKfF9y0EEeymDfdGR2qsSg" label="-"/>
+      <cardinality xmi:id="_PKfF-C0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PKftAC0EEeymDfdGR2qsSg" sourceAnchor="0.0,35.0" targetAnchor="399.0,42.0" target="_PMClIC0EEeymDfdGR2qsSg" source="_PKgUEC0EEeymDfdGR2qsSg">
+    <modelElement href="surepay-assignment.uml#_OzOcgS0EEeymDfdGR2qsSg"/>
+    <bendpoints xmi:id="_jzlmAi0GEeymDfdGR2qsSg" sourceX="-415" targetX="277" targetY="263"/>
+    <bendpoints xmi:id="_jzmNEC0GEeymDfdGR2qsSg" sourceX="-415" sourceY="-263" targetX="277"/>
+    <stereotypes xmi:id="_PKftAS0EEeymDfdGR2qsSg" name="Reference">
+      <modelElement href="surepay-assignment.uml#_OzPDkC0EEeymDfdGR2qsSg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PKftAi0EEeymDfdGR2qsSg" text="">
+      <visualProperties xmi:id="_PjcYgC0EEeymDfdGR2qsSg" position="1.0000000000000568,69.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_PKftAy0EEeymDfdGR2qsSg" aggregationKind="NONE" name="">
+      <modelElement href="surepay-assignment.uml#_OzOcgi0EEeymDfdGR2qsSg"/>
+      <visualProperties xmi:id="_PjbxcC0EEeymDfdGR2qsSg" position="-54.0,-57.0"/>
+      <visibility xmi:id="_PKftBC0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PKftBS0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PKftBi0EEeymDfdGR2qsSg" aggregationKind="NONE" name="jsonFileStrategy" navigable="true">
+      <modelElement href="surepay-assignment.uml#_OybLQC0EEeymDfdGR2qsSg"/>
+      <visualProperties xmi:id="_PjcYgS0EEeymDfdGR2qsSg" position="52.0,2.0000000000000284"/>
+      <visibility xmi:id="_PKftBy0EEeymDfdGR2qsSg" label="-"/>
+      <cardinality xmi:id="_PKftCC0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_PLEUwC0EEeymDfdGR2qsSg" sourceAnchor="253.0,0.0" targetAnchor="276.0,86.0" superClass="_PLHYEC0EEeymDfdGR2qsSg" subClass="_PLJ0UC0EEeymDfdGR2qsSg">
+    <modelElement href="surepay-assignment.uml#_OxMcMC0EEeymDfdGR2qsSg"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_PLt1AC0EEeymDfdGR2qsSg" sourceAnchor="210.0,0.0" targetAnchor="200.0,85.0" dashed="true" superClass="_PMClIC0EEeymDfdGR2qsSg" subClass="_PLzUkC0EEeymDfdGR2qsSg">
+    <modelElement href="surepay-assignment.uml#_OxrkYS0EEeymDfdGR2qsSg"/>
+    <bendpoints xmi:id="_jzmNEi0GEeymDfdGR2qsSg" sourceY="-245" targetX="161" targetY="228"/>
+    <bendpoints xmi:id="_jzmNEy0GEeymDfdGR2qsSg" sourceX="-161" sourceY="-245" targetY="228"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PLyGcC0EEeymDfdGR2qsSg" sourceAnchor="0.0,69.0" targetAnchor="183.0,135.0" target="_PMi7cC0EEeymDfdGR2qsSg" source="_PLzUkC0EEeymDfdGR2qsSg">
+    <modelElement href="surepay-assignment.uml#_OzQRsS0EEeymDfdGR2qsSg"/>
+    <bendpoints xmi:id="_jzmNES0GEeymDfdGR2qsSg" sourceX="-1313" targetY="422"/>
+    <stereotypes xmi:id="_PLyGcS0EEeymDfdGR2qsSg" name="Reference">
+      <modelElement href="surepay-assignment.uml#_OzQ4wC0EEeymDfdGR2qsSg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PLyGci0EEeymDfdGR2qsSg" text="">
+      <visualProperties xmi:id="_PjdmoC0EEeymDfdGR2qsSg" position="40.5,-23.000000000000227"/>
+    </nameVisual>
+    <sourceRole xmi:id="_PLyGcy0EEeymDfdGR2qsSg" aggregationKind="NONE" name="">
+      <modelElement href="surepay-assignment.uml#_OzQRsi0EEeymDfdGR2qsSg"/>
+      <visualProperties xmi:id="_Pjc_kC0EEeymDfdGR2qsSg" position="-97.96875,-57.0"/>
+      <visibility xmi:id="_PLyGdC0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PLyGdS0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PLyGdi0EEeymDfdGR2qsSg" aggregationKind="NONE" name="utility" navigable="true">
+      <modelElement href="surepay-assignment.uml#_OyjuIS0EEeymDfdGR2qsSg"/>
+      <visualProperties xmi:id="_PjdmoS0EEeymDfdGR2qsSg" position="-55.5,46.624999999999375"/>
+      <visibility xmi:id="_PLyGdy0EEeymDfdGR2qsSg" label="-"/>
+      <cardinality xmi:id="_PLyGeC0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PLytgC0EEeymDfdGR2qsSg" source="_PLzUkC0EEeymDfdGR2qsSg">
+    <modelElement href="surepay-assignment.uml#_OzQ4wS0EEeymDfdGR2qsSg"/>
+    <stereotypes xmi:id="_PLytgS0EEeymDfdGR2qsSg" name="Reference">
+      <modelElement href="surepay-assignment.uml#_OzRf0C0EEeymDfdGR2qsSg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PLytgi0EEeymDfdGR2qsSg" text=""/>
+    <sourceRole xmi:id="_PLytgy0EEeymDfdGR2qsSg" aggregationKind="NONE" name="">
+      <modelElement href="surepay-assignment.uml#_OzQ4wi0EEeymDfdGR2qsSg"/>
+      <visibility xmi:id="_PLythC0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PLythS0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PLythi0EEeymDfdGR2qsSg" aggregationKind="NONE" name="logger" navigable="true">
+      <modelElement href="surepay-assignment.uml#_OykVMC0EEeymDfdGR2qsSg"/>
+      <visibility xmi:id="_PLythy0EEeymDfdGR2qsSg" label="-"/>
+      <cardinality xmi:id="_PLytiC0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_PL5bMC0EEeymDfdGR2qsSg" sourceAnchor="230.0,0.0" targetAnchor="200.0,85.0" dashed="true" superClass="_PMClIC0EEeymDfdGR2qsSg" subClass="_PL9FkC0EEeymDfdGR2qsSg">
+    <modelElement href="surepay-assignment.uml#_OxaeoC0EEeymDfdGR2qsSg"/>
+    <bendpoints xmi:id="_jzmNFS0GEeymDfdGR2qsSg" sourceY="-30" targetX="-650" targetY="228"/>
+    <bendpoints xmi:id="_jzmNFi0GEeymDfdGR2qsSg" sourceX="650" sourceY="-30" targetY="228"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PL5bMS0EEeymDfdGR2qsSg" source="_PL9FkC0EEeymDfdGR2qsSg">
+    <modelElement href="surepay-assignment.uml#_OzPDkS0EEeymDfdGR2qsSg"/>
+    <stereotypes xmi:id="_PL7QYy0EEeymDfdGR2qsSg" name="Reference">
+      <modelElement href="surepay-assignment.uml#_OzPDky0EEeymDfdGR2qsSg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PL7QYC0EEeymDfdGR2qsSg" text=""/>
+    <sourceRole xmi:id="_PL7QYS0EEeymDfdGR2qsSg" aggregationKind="NONE" name="">
+      <modelElement href="surepay-assignment.uml#_OzPDki0EEeymDfdGR2qsSg"/>
+      <visibility xmi:id="_PL8egS0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PL8egC0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PL7QYi0EEeymDfdGR2qsSg" aggregationKind="NONE" name="logger" navigable="true">
+      <modelElement href="surepay-assignment.uml#_OyigAS0EEeymDfdGR2qsSg"/>
+      <visibility xmi:id="_PL8egy0EEeymDfdGR2qsSg" label="-"/>
+      <cardinality xmi:id="_PL8egi0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PL6CQC0EEeymDfdGR2qsSg" sourceAnchor="0.0,92.0" targetAnchor="213.0,135.0" target="_PMi7cC0EEeymDfdGR2qsSg" source="_PL9FkC0EEeymDfdGR2qsSg">
+    <modelElement href="surepay-assignment.uml#_OzPDlC0EEeymDfdGR2qsSg"/>
+    <bendpoints xmi:id="_jzmNFC0GEeymDfdGR2qsSg" sourceX="-452" targetY="230"/>
+    <stereotypes xmi:id="_PL73cS0EEeymDfdGR2qsSg" name="Reference">
+      <modelElement href="surepay-assignment.uml#_OzPqoC0EEeymDfdGR2qsSg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PL7QZC0EEeymDfdGR2qsSg" text="">
+      <visualProperties xmi:id="_Pje0wC0EEeymDfdGR2qsSg" position="1.5,-116.63636363636357"/>
+    </nameVisual>
+    <sourceRole xmi:id="_PL7QZS0EEeymDfdGR2qsSg" aggregationKind="NONE" name="">
+      <modelElement href="surepay-assignment.uml#_OzPDlS0EEeymDfdGR2qsSg"/>
+      <visualProperties xmi:id="_PjeNsC0EEeymDfdGR2qsSg" position="-44.15625,-57.0"/>
+      <visibility xmi:id="_PL8ehS0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PL8ehC0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PL73cC0EEeymDfdGR2qsSg" aggregationKind="NONE" name="utility" navigable="true">
+      <modelElement href="surepay-assignment.uml#_OyjHEC0EEeymDfdGR2qsSg"/>
+      <visualProperties xmi:id="_Pjfb0C0EEeymDfdGR2qsSg" position="1.5,35.600000000000136"/>
+      <visibility xmi:id="_PL8ehy0EEeymDfdGR2qsSg" label="-"/>
+      <cardinality xmi:id="_PL8ehi0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_PMM9MC0EEeymDfdGR2qsSg" sourceAnchor="308.0,0.0" targetAnchor="132.0,154.0" dashed="true" superClass="_PMYjYC0EEeymDfdGR2qsSg" subClass="_PMROoC0EEeymDfdGR2qsSg">
+    <modelElement href="surepay-assignment.uml#_OxmE0C0EEeymDfdGR2qsSg"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PMM9MS0EEeymDfdGR2qsSg" source="_PMROoC0EEeymDfdGR2qsSg">
+    <modelElement href="surepay-assignment.uml#_OzPqoS0EEeymDfdGR2qsSg"/>
+    <stereotypes xmi:id="_PMPZcC0EEeymDfdGR2qsSg" name="Reference">
+      <modelElement href="surepay-assignment.uml#_OzQRsC0EEeymDfdGR2qsSg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PMOyYC0EEeymDfdGR2qsSg" text=""/>
+    <sourceRole xmi:id="_PMOyYS0EEeymDfdGR2qsSg" aggregationKind="NONE" name="">
+      <modelElement href="surepay-assignment.uml#_OzPqoi0EEeymDfdGR2qsSg"/>
+      <visibility xmi:id="_PMQAgS0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PMQAgC0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PMOyYi0EEeymDfdGR2qsSg" aggregationKind="NONE" name="rootLocation" navigable="true">
+      <modelElement href="surepay-assignment.uml#_OyjuIC0EEeymDfdGR2qsSg"/>
+      <visibility xmi:id="_PMQAgy0EEeymDfdGR2qsSg" label="-"/>
+      <cardinality xmi:id="_PMQAgi0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_PMc00C0EEeymDfdGR2qsSg" sourceAnchor="250.0,0.0" targetAnchor="213.0,119.0" dashed="true" superClass="_PMgfMC0EEeymDfdGR2qsSg" subClass="_PMi7cC0EEeymDfdGR2qsSg">
+    <modelElement href="surepay-assignment.uml#_OxxD8C0EEeymDfdGR2qsSg"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PI3VUC0EEeymDfdGR2qsSg" name="SurepayAssignmentApplication">
+    <modelElement href="surepay-assignment.uml#_OtUBwC0EEeymDfdGR2qsSg"/>
+    <visualProperties xmi:id="_PI3VUS0EEeymDfdGR2qsSg" position="288.0,10.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_PI3VUi0EEeymDfdGR2qsSg" name="LegacyStyledElement">
+      <modelElement href="surepay-assignment.uml#_OtXsIC0EEeymDfdGR2qsSg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_PI3VUy0EEeymDfdGR2qsSg" name="Annotations">
+      <modelElement href="surepay-assignment.uml#_OtfA4C0EEeymDfdGR2qsSg"/>
+    </stereotypes>
+    <visibility xmi:id="_PI3VVC0EEeymDfdGR2qsSg" label="+"/>
+    <operations xmi:id="_PI3VVS0EEeymDfdGR2qsSg" name="main" staticOperation="true">
+      <modelElement href="surepay-assignment.uml#_OtbWgC0EEeymDfdGR2qsSg"/>
+      <stereotypes xmi:id="_PI3VVi0EEeymDfdGR2qsSg" name="StyledElement">
+        <modelElement href="surepay-assignment.uml#_OtdLsC0EEeymDfdGR2qsSg"/>
+      </stereotypes>
+      <visibility xmi:id="_PI3VVy0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PI3VWC0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_PI3VWS0EEeymDfdGR2qsSg" name="args">
+        <modelElement href="surepay-assignment.uml#_OtbWgS0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PI3VWi0EEeymDfdGR2qsSg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_PI3VWy0EEeymDfdGR2qsSg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PI3VXC0EEeymDfdGR2qsSg" name="init">
+      <modelElement href="surepay-assignment.uml#_OwvJMC0EEeymDfdGR2qsSg"/>
+      <stereotypes xmi:id="_PI3VXS0EEeymDfdGR2qsSg" name="Annotations">
+        <modelElement href="surepay-assignment.uml#_OwwXUC0EEeymDfdGR2qsSg"/>
+      </stereotypes>
+      <visibility xmi:id="_PI3VXi0EEeymDfdGR2qsSg" label="~"/>
+      <cardinality xmi:id="_PI3VXy0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PI3VYC0EEeymDfdGR2qsSg">
+        <modelElement href="surepay-assignment.uml#_Ox3KkC0EEeymDfdGR2qsSg"/>
+        <type xmi:id="_PI3VYS0EEeymDfdGR2qsSg" name="CommandLineRunner">
+          <modelElement href="surepay-assignment.uml#_OwobgC0EEeymDfdGR2qsSg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PI3VYi0EEeymDfdGR2qsSg" name="storageService">
+        <modelElement href="surepay-assignment.uml#_OwvwQC0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PI3VYy0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PI3VZC0EEeymDfdGR2qsSg" name="StorageService">
+          <modelElement href="surepay-assignment.uml#_OuwMMC0EEeymDfdGR2qsSg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PKMyEC0EEeymDfdGR2qsSg" name="StorageProperties">
+    <modelElement href="surepay-assignment.uml#_OtmVoC0EEeymDfdGR2qsSg"/>
+    <visualProperties xmi:id="_PKNZIC0EEeymDfdGR2qsSg" position="402.0,198.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_PKNZIS0EEeymDfdGR2qsSg" name="LegacyStyledElement">
+      <modelElement href="surepay-assignment.uml#_OtnjwC0EEeymDfdGR2qsSg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_PKNZIi0EEeymDfdGR2qsSg" name="Annotations">
+      <modelElement href="surepay-assignment.uml#_Otox4C0EEeymDfdGR2qsSg"/>
+    </stereotypes>
+    <visibility xmi:id="_PKNZIy0EEeymDfdGR2qsSg" label="+"/>
+    <attributes xmi:id="_PKNZJC0EEeymDfdGR2qsSg" defaultValue="&quot;upload-dir&quot;" name="location">
+      <modelElement href="surepay-assignment.uml#_OyYH8C0EEeymDfdGR2qsSg"/>
+      <stereotypes xmi:id="_PKNZJS0EEeymDfdGR2qsSg" name="StyledElement">
+        <modelElement href="surepay-assignment.uml#_OyYvAS0EEeymDfdGR2qsSg"/>
+      </stereotypes>
+      <visibility xmi:id="_PKNZJi0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PKNZJy0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <type xmi:id="_PKNZKC0EEeymDfdGR2qsSg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PKyA4C0EEeymDfdGR2qsSg" name="IOException">
+    <modelElement href="surepay-assignment.uml#_OwyMgC0EEeymDfdGR2qsSg"/>
+    <visualProperties xmi:id="_PKyA4S0EEeymDfdGR2qsSg" position="242.0,145.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_PKyA4i0EEeymDfdGR2qsSg" name="Reference">
+      <modelElement href="surepay-assignment.uml#_OwyzkC0EEeymDfdGR2qsSg"/>
+    </stereotypes>
+    <visibility xmi:id="_PKyA4y0EEeymDfdGR2qsSg" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_PK1EMC0EEeymDfdGR2qsSg" name="FileTypes">
+    <modelElement href="surepay-assignment.uml#_Ot4pgC0EEeymDfdGR2qsSg"/>
+    <visualProperties xmi:id="_PK1EMS0EEeymDfdGR2qsSg" position="-180.0,40.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_PK1EMi0EEeymDfdGR2qsSg" label="+"/>
+    <attributes xmi:id="_PK1EMy0EEeymDfdGR2qsSg" name="displayValue">
+      <modelElement href="surepay-assignment.uml#_OycZYC0EEeymDfdGR2qsSg"/>
+      <stereotypes xmi:id="_PK1ENC0EEeymDfdGR2qsSg" name="LegacyStyledElement">
+        <modelElement href="surepay-assignment.uml#_OydAcC0EEeymDfdGR2qsSg"/>
+      </stereotypes>
+      <visibility xmi:id="_PK1ENS0EEeymDfdGR2qsSg" label="-"/>
+      <cardinality xmi:id="_PK1ENi0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <type xmi:id="_PK1ENy0EEeymDfdGR2qsSg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_PK1EOC0EEeymDfdGR2qsSg" name="FileTypes">
+      <modelElement href="surepay-assignment.uml#_Ot868C0EEeymDfdGR2qsSg"/>
+      <keywords xmi:id="_PK1EOS0EEeymDfdGR2qsSg" keyword="create"/>
+      <visibility xmi:id="_PK1EOi0EEeymDfdGR2qsSg" label="-"/>
+      <cardinality xmi:id="_PK1EOy0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PK1EPC0EEeymDfdGR2qsSg">
+        <modelElement href="surepay-assignment.uml#_Ot869C0EEeymDfdGR2qsSg"/>
+        <type xmi:id="_PK1EPS0EEeymDfdGR2qsSg" name="FileTypes">
+          <modelElement href="surepay-assignment.uml#_Ot4pgC0EEeymDfdGR2qsSg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PK1EPi0EEeymDfdGR2qsSg" name="displayValue">
+        <modelElement href="surepay-assignment.uml#_Ot868S0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PK1EPy0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PK1EQC0EEeymDfdGR2qsSg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PK1EQS0EEeymDfdGR2qsSg" name="getDisplayValue">
+      <modelElement href="surepay-assignment.uml#_Ot9iAC0EEeymDfdGR2qsSg"/>
+      <visibility xmi:id="_PK1EQi0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PK1EQy0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PK1ERC0EEeymDfdGR2qsSg">
+        <modelElement href="surepay-assignment.uml#_Ot9iAS0EEeymDfdGR2qsSg"/>
+        <type xmi:id="_PK1ERS0EEeymDfdGR2qsSg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <literals xmi:id="_PK1ERi0EEeymDfdGR2qsSg" name="CSV">
+      <modelElement href="surepay-assignment.uml#_Ot53oC0EEeymDfdGR2qsSg"/>
+    </literals>
+    <literals xmi:id="_PK1ERy0EEeymDfdGR2qsSg" name="JSON">
+      <modelElement href="surepay-assignment.uml#_Ot6esS0EEeymDfdGR2qsSg"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_PK_cQC0EEeymDfdGR2qsSg" name="HttpStatus">
+    <modelElement href="surepay-assignment.uml#_Ot_XMC0EEeymDfdGR2qsSg"/>
+    <visualProperties xmi:id="_PK_cQS0EEeymDfdGR2qsSg" position="833.0,10.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_PK_cQi0EEeymDfdGR2qsSg" label="+"/>
+    <attributes xmi:id="_PK_cQy0EEeymDfdGR2qsSg" name="value">
+      <modelElement href="surepay-assignment.uml#_OydngC0EEeymDfdGR2qsSg"/>
+      <stereotypes xmi:id="_PK_cRC0EEeymDfdGR2qsSg" name="LegacyStyledElement">
+        <modelElement href="surepay-assignment.uml#_OyeOkC0EEeymDfdGR2qsSg"/>
+      </stereotypes>
+      <visibility xmi:id="_PK_cRS0EEeymDfdGR2qsSg" label="-"/>
+      <cardinality xmi:id="_PK_cRi0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <type xmi:id="_PK_cRy0EEeymDfdGR2qsSg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_PK_cSC0EEeymDfdGR2qsSg" name="HttpStatus">
+      <modelElement href="surepay-assignment.uml#_OuBzcC0EEeymDfdGR2qsSg"/>
+      <keywords xmi:id="_PK_cSS0EEeymDfdGR2qsSg" keyword="create"/>
+      <visibility xmi:id="_PK_cSi0EEeymDfdGR2qsSg" label="-"/>
+      <cardinality xmi:id="_PK_cSy0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PK_cTC0EEeymDfdGR2qsSg">
+        <modelElement href="surepay-assignment.uml#_OuCagi0EEeymDfdGR2qsSg"/>
+        <type xmi:id="_PK_cTS0EEeymDfdGR2qsSg" name="HttpStatus">
+          <modelElement href="surepay-assignment.uml#_Ot_XMC0EEeymDfdGR2qsSg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PK_cTi0EEeymDfdGR2qsSg" name="value">
+        <modelElement href="surepay-assignment.uml#_OuBzcS0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PK_cTy0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PK_cUC0EEeymDfdGR2qsSg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PK_cUS0EEeymDfdGR2qsSg" name="getValue">
+      <modelElement href="surepay-assignment.uml#_OuCagy0EEeymDfdGR2qsSg"/>
+      <visibility xmi:id="_PK_cUi0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PK_cUy0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PK_cVC0EEeymDfdGR2qsSg">
+        <modelElement href="surepay-assignment.uml#_OuDBkC0EEeymDfdGR2qsSg"/>
+        <type xmi:id="_PK_cVS0EEeymDfdGR2qsSg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <literals xmi:id="_PK_cVi0EEeymDfdGR2qsSg" name="NOT_FOUND">
+      <modelElement href="surepay-assignment.uml#_Ot_-QC0EEeymDfdGR2qsSg"/>
+    </literals>
+    <literals xmi:id="_PK_cVy0EEeymDfdGR2qsSg" name="INTERNAL_SERVER_ERROR">
+      <modelElement href="surepay-assignment.uml#_Ot_-Qi0EEeymDfdGR2qsSg"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_PMYjYC0EEeymDfdGR2qsSg" name="StorageService" associationsIn="_PKV8AC0EEeymDfdGR2qsSg" subclassedBy="_PMM9MC0EEeymDfdGR2qsSg">
+    <modelElement href="surepay-assignment.uml#_OuwMMC0EEeymDfdGR2qsSg"/>
+    <visualProperties xmi:id="_PMYjYS0EEeymDfdGR2qsSg" position="1448.0,156.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_PMYjYi0EEeymDfdGR2qsSg" label="+"/>
+    <operations xmi:id="_PMYjYy0EEeymDfdGR2qsSg" name="init">
+      <modelElement href="surepay-assignment.uml#_OuwzQC0EEeymDfdGR2qsSg"/>
+      <visibility xmi:id="_PMYjZC0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PMYjZS0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_PMYjZi0EEeymDfdGR2qsSg" name="load">
+      <modelElement href="surepay-assignment.uml#_OuxaUC0EEeymDfdGR2qsSg"/>
+      <visibility xmi:id="_PMYjZy0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PMYjaC0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PMYjaS0EEeymDfdGR2qsSg">
+        <modelElement href="surepay-assignment.uml#_OySoYC0EEeymDfdGR2qsSg"/>
+        <type xmi:id="_PMYjai0EEeymDfdGR2qsSg" name="Path">
+          <modelElement href="surepay-assignment.uml#_OxRUsS0EEeymDfdGR2qsSg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PMYjay0EEeymDfdGR2qsSg" name="filename">
+        <modelElement href="surepay-assignment.uml#_OuyBYC0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PMYjbC0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PMYjbS0EEeymDfdGR2qsSg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PMYjbi0EEeymDfdGR2qsSg" name="deleteAll">
+      <modelElement href="surepay-assignment.uml#_OuyocC0EEeymDfdGR2qsSg"/>
+      <visibility xmi:id="_PMYjby0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PMYjcC0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_PMYjcS0EEeymDfdGR2qsSg" name="store">
+      <modelElement href="surepay-assignment.uml#_OySBUC0EEeymDfdGR2qsSg"/>
+      <visibility xmi:id="_PMYjci0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PMYjcy0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PMYjdC0EEeymDfdGR2qsSg">
+        <modelElement href="surepay-assignment.uml#_OySBUi0EEeymDfdGR2qsSg"/>
+        <type xmi:id="_PMYjdS0EEeymDfdGR2qsSg" name="Path">
+          <modelElement href="surepay-assignment.uml#_OxRUsS0EEeymDfdGR2qsSg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PMYjdi0EEeymDfdGR2qsSg" name="file">
+        <modelElement href="surepay-assignment.uml#_OySBUS0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PMYjdy0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PMYjeC0EEeymDfdGR2qsSg" name="MultipartFile">
+          <modelElement href="surepay-assignment.uml#_OxCEIC0EEeymDfdGR2qsSg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PMROoC0EEeymDfdGR2qsSg" name="FileSystemStorageService" associationsOut="_PMM9MS0EEeymDfdGR2qsSg" generalizations="_PMM9MC0EEeymDfdGR2qsSg">
+    <modelElement href="surepay-assignment.uml#_Ouj-8C0EEeymDfdGR2qsSg"/>
+    <visualProperties xmi:id="_PMROoS0EEeymDfdGR2qsSg" position="1272.0,554.0" size="440.0,207.0"/>
+    <stereotypes xmi:id="_PMROoi0EEeymDfdGR2qsSg" name="LegacyStyledElement">
+      <modelElement href="surepay-assignment.uml#_OukmAC0EEeymDfdGR2qsSg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_PMROoy0EEeymDfdGR2qsSg" name="Annotations">
+      <modelElement href="surepay-assignment.uml#_OuoQYC0EEeymDfdGR2qsSg"/>
+    </stereotypes>
+    <visibility xmi:id="_PMROpC0EEeymDfdGR2qsSg" label="+"/>
+    <attributes xmi:id="_PMROpS0EEeymDfdGR2qsSg" name="rootLocation">
+      <modelElement href="surepay-assignment.uml#_OyjuIC0EEeymDfdGR2qsSg"/>
+      <visibility xmi:id="_PMROpi0EEeymDfdGR2qsSg" label="-"/>
+      <cardinality xmi:id="_PMROpy0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <type xmi:id="_PMROqC0EEeymDfdGR2qsSg" name="Path">
+        <modelElement href="surepay-assignment.uml#_OxRUsS0EEeymDfdGR2qsSg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_PMROqS0EEeymDfdGR2qsSg" name="load">
+      <modelElement href="surepay-assignment.uml#_OulNEC0EEeymDfdGR2qsSg"/>
+      <stereotypes xmi:id="_PMROqi0EEeymDfdGR2qsSg" name="Annotations">
+        <modelElement href="surepay-assignment.uml#_Oul0IS0EEeymDfdGR2qsSg"/>
+      </stereotypes>
+      <visibility xmi:id="_PMROqy0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PMROrC0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PMROrS0EEeymDfdGR2qsSg">
+        <modelElement href="surepay-assignment.uml#_OyO-Ai0EEeymDfdGR2qsSg"/>
+        <type xmi:id="_PMROri0EEeymDfdGR2qsSg" name="Path">
+          <modelElement href="surepay-assignment.uml#_OxRUsS0EEeymDfdGR2qsSg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PMROry0EEeymDfdGR2qsSg" name="filename">
+        <modelElement href="surepay-assignment.uml#_Oul0IC0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PMROsC0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PMROsS0EEeymDfdGR2qsSg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PMROsi0EEeymDfdGR2qsSg" name="deleteAll">
+      <modelElement href="surepay-assignment.uml#_OumbMC0EEeymDfdGR2qsSg"/>
+      <stereotypes xmi:id="_PMROsy0EEeymDfdGR2qsSg" name="Annotations">
+        <modelElement href="surepay-assignment.uml#_OunCQC0EEeymDfdGR2qsSg"/>
+      </stereotypes>
+      <visibility xmi:id="_PMROtC0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PMROtS0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_PMROti0EEeymDfdGR2qsSg" name="init">
+      <modelElement href="surepay-assignment.uml#_OunCQi0EEeymDfdGR2qsSg"/>
+      <stereotypes xmi:id="_PMROty0EEeymDfdGR2qsSg" name="Annotations">
+        <modelElement href="surepay-assignment.uml#_OunpUC0EEeymDfdGR2qsSg"/>
+      </stereotypes>
+      <visibility xmi:id="_PMROuC0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PMROuS0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_PMROui0EEeymDfdGR2qsSg" name="FileSystemStorageService">
+      <modelElement href="surepay-assignment.uml#_Oxmr4C0EEeymDfdGR2qsSg"/>
+      <keywords xmi:id="_PMROuy0EEeymDfdGR2qsSg" keyword="create"/>
+      <stereotypes xmi:id="_PMROvC0EEeymDfdGR2qsSg" name="Annotations">
+        <modelElement href="surepay-assignment.uml#_Oxn6AC0EEeymDfdGR2qsSg"/>
+      </stereotypes>
+      <visibility xmi:id="_PMROvS0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PMROvi0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PMROvy0EEeymDfdGR2qsSg">
+        <modelElement href="surepay-assignment.uml#_OxnS8i0EEeymDfdGR2qsSg"/>
+        <type xmi:id="_PMROwC0EEeymDfdGR2qsSg" name="FileSystemStorageService">
+          <modelElement href="surepay-assignment.uml#_Ouj-8C0EEeymDfdGR2qsSg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PMROwS0EEeymDfdGR2qsSg" name="properties">
+        <modelElement href="surepay-assignment.uml#_Oxmr4S0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PMROwi0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PMROwy0EEeymDfdGR2qsSg" name="StorageProperties">
+          <modelElement href="surepay-assignment.uml#_OtmVoC0EEeymDfdGR2qsSg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PMROxC0EEeymDfdGR2qsSg" name="store">
+      <modelElement href="surepay-assignment.uml#_OyOW8C0EEeymDfdGR2qsSg"/>
+      <stereotypes xmi:id="_PMROxS0EEeymDfdGR2qsSg" name="Annotations">
+        <modelElement href="surepay-assignment.uml#_OyO-AC0EEeymDfdGR2qsSg"/>
+      </stereotypes>
+      <visibility xmi:id="_PMROxi0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PMROxy0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PMROyC0EEeymDfdGR2qsSg">
+        <modelElement href="surepay-assignment.uml#_OyOW8i0EEeymDfdGR2qsSg"/>
+        <type xmi:id="_PMROyS0EEeymDfdGR2qsSg" name="Path">
+          <modelElement href="surepay-assignment.uml#_OxRUsS0EEeymDfdGR2qsSg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PMROyi0EEeymDfdGR2qsSg" name="file">
+        <modelElement href="surepay-assignment.uml#_OyOW8S0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PMROyy0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PMROzC0EEeymDfdGR2qsSg" name="MultipartFile">
+          <modelElement href="surepay-assignment.uml#_OxCEIC0EEeymDfdGR2qsSg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PLHYEC0EEeymDfdGR2qsSg" name="StorageException" subclassedBy="_PLEUwC0EEeymDfdGR2qsSg">
+    <modelElement href="surepay-assignment.uml#_OuE2wC0EEeymDfdGR2qsSg"/>
+    <visualProperties xmi:id="_PLHYES0EEeymDfdGR2qsSg" position="1832.0,531.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_PLHYEi0EEeymDfdGR2qsSg" label="+"/>
+    <operations xmi:id="_PLHYEy0EEeymDfdGR2qsSg" name="StorageException">
+      <modelElement href="surepay-assignment.uml#_OuFd0C0EEeymDfdGR2qsSg"/>
+      <keywords xmi:id="_PLHYFC0EEeymDfdGR2qsSg" keyword="create"/>
+      <visibility xmi:id="_PLHYFS0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PLHYFi0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PLHYFy0EEeymDfdGR2qsSg">
+        <modelElement href="surepay-assignment.uml#_OuGE4i0EEeymDfdGR2qsSg"/>
+        <type xmi:id="_PLHYGC0EEeymDfdGR2qsSg" name="StorageException">
+          <modelElement href="surepay-assignment.uml#_OuE2wC0EEeymDfdGR2qsSg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PLHYGS0EEeymDfdGR2qsSg" name="message">
+        <modelElement href="surepay-assignment.uml#_OuFd0S0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PLHYGi0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PLHYGy0EEeymDfdGR2qsSg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PLHYHC0EEeymDfdGR2qsSg" name="StorageException">
+      <modelElement href="surepay-assignment.uml#_OyEl8S0EEeymDfdGR2qsSg"/>
+      <keywords xmi:id="_PLHYHS0EEeymDfdGR2qsSg" keyword="create"/>
+      <visibility xmi:id="_PLHYHi0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PLHYHy0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PLHYIC0EEeymDfdGR2qsSg">
+        <modelElement href="surepay-assignment.uml#_OyFNAS0EEeymDfdGR2qsSg"/>
+        <type xmi:id="_PLHYIS0EEeymDfdGR2qsSg" name="StorageException">
+          <modelElement href="surepay-assignment.uml#_OuE2wC0EEeymDfdGR2qsSg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PLHYIi0EEeymDfdGR2qsSg" name="message">
+        <modelElement href="surepay-assignment.uml#_OyEl8i0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PLHYIy0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PLHYJC0EEeymDfdGR2qsSg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PLHYJS0EEeymDfdGR2qsSg" name="cause">
+        <modelElement href="surepay-assignment.uml#_OyEl8y0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PLHYJi0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PLHYJy0EEeymDfdGR2qsSg" name="Throwable">
+          <modelElement href="surepay-assignment.uml#_OyD-4C0EEeymDfdGR2qsSg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PLJ0UC0EEeymDfdGR2qsSg" name="StorageFileNotFoundException" generalizations="_PLEUwC0EEeymDfdGR2qsSg">
+    <modelElement href="surepay-assignment.uml#_OuH6EC0EEeymDfdGR2qsSg"/>
+    <visualProperties xmi:id="_PLKbYC0EEeymDfdGR2qsSg" position="1855.0,851.0" size="543.0,86.0"/>
+    <visibility xmi:id="_PLKbYS0EEeymDfdGR2qsSg" label="+"/>
+    <operations xmi:id="_PLKbYi0EEeymDfdGR2qsSg" name="StorageFileNotFoundException">
+      <modelElement href="surepay-assignment.uml#_OuJIMC0EEeymDfdGR2qsSg"/>
+      <keywords xmi:id="_PLKbYy0EEeymDfdGR2qsSg" keyword="create"/>
+      <visibility xmi:id="_PLKbZC0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PLKbZS0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PLKbZi0EEeymDfdGR2qsSg">
+        <modelElement href="surepay-assignment.uml#_OuJvQC0EEeymDfdGR2qsSg"/>
+        <type xmi:id="_PLKbZy0EEeymDfdGR2qsSg" name="StorageFileNotFoundException">
+          <modelElement href="surepay-assignment.uml#_OuH6EC0EEeymDfdGR2qsSg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PLKbaC0EEeymDfdGR2qsSg" name="message">
+        <modelElement href="surepay-assignment.uml#_OuJIMS0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PLKbaS0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PLKbai0EEeymDfdGR2qsSg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PLKbay0EEeymDfdGR2qsSg" name="StorageFileNotFoundException">
+      <modelElement href="surepay-assignment.uml#_OyF0EC0EEeymDfdGR2qsSg"/>
+      <keywords xmi:id="_PLKbbC0EEeymDfdGR2qsSg" keyword="create"/>
+      <visibility xmi:id="_PLKbbS0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PLKbbi0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PLKbby0EEeymDfdGR2qsSg">
+        <modelElement href="surepay-assignment.uml#_OyF0FS0EEeymDfdGR2qsSg"/>
+        <type xmi:id="_PLKbcC0EEeymDfdGR2qsSg" name="StorageFileNotFoundException">
+          <modelElement href="surepay-assignment.uml#_OuH6EC0EEeymDfdGR2qsSg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PLKbcS0EEeymDfdGR2qsSg" name="message">
+        <modelElement href="surepay-assignment.uml#_OyF0ES0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PLKbci0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PLKbcy0EEeymDfdGR2qsSg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PLKbdC0EEeymDfdGR2qsSg" name="cause">
+        <modelElement href="surepay-assignment.uml#_OyF0Ei0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PLKbdS0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PLKbdi0EEeymDfdGR2qsSg" name="Throwable">
+          <modelElement href="surepay-assignment.uml#_OyD-4C0EEeymDfdGR2qsSg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PLnHUC0EEeymDfdGR2qsSg" name="BankStatement">
+    <modelElement href="surepay-assignment.uml#_OuLkcC0EEeymDfdGR2qsSg"/>
+    <visualProperties xmi:id="_PLnHUS0EEeymDfdGR2qsSg" position="197.0,707.0" size="500.0,254.0"/>
+    <visibility xmi:id="_PLnHUi0EEeymDfdGR2qsSg" label="+"/>
+    <attributes xmi:id="_PLnHUy0EEeymDfdGR2qsSg" name="reference">
+      <modelElement href="surepay-assignment.uml#_OyeOkS0EEeymDfdGR2qsSg"/>
+      <visibility xmi:id="_PLnHVC0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PLnHVS0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <type xmi:id="_PLnHVi0EEeymDfdGR2qsSg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PLnHVy0EEeymDfdGR2qsSg" name="accountNumber">
+      <modelElement href="surepay-assignment.uml#_Oye1oC0EEeymDfdGR2qsSg"/>
+      <visibility xmi:id="_PLnHWC0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PLnHWS0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <type xmi:id="_PLnHWi0EEeymDfdGR2qsSg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PLnHWy0EEeymDfdGR2qsSg" name="description">
+      <modelElement href="surepay-assignment.uml#_Oye1oS0EEeymDfdGR2qsSg"/>
+      <visibility xmi:id="_PLnHXC0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PLnHXS0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <type xmi:id="_PLnHXi0EEeymDfdGR2qsSg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PLnHXy0EEeymDfdGR2qsSg" name="startBalance">
+      <modelElement href="surepay-assignment.uml#_Oye1oi0EEeymDfdGR2qsSg"/>
+      <visibility xmi:id="_PLnHYC0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PLnHYS0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <type xmi:id="_PLnHYi0EEeymDfdGR2qsSg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PLnHYy0EEeymDfdGR2qsSg" name="mutation">
+      <modelElement href="surepay-assignment.uml#_OyfcsC0EEeymDfdGR2qsSg"/>
+      <visibility xmi:id="_PLnHZC0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PLnHZS0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <type xmi:id="_PLnHZi0EEeymDfdGR2qsSg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PLnHZy0EEeymDfdGR2qsSg" name="endBalance">
+      <modelElement href="surepay-assignment.uml#_OyfcsS0EEeymDfdGR2qsSg"/>
+      <stereotypes xmi:id="_PLnHaC0EEeymDfdGR2qsSg" name="LegacyStyledElement">
+        <modelElement href="surepay-assignment.uml#_OygDwC0EEeymDfdGR2qsSg"/>
+      </stereotypes>
+      <visibility xmi:id="_PLnHaS0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PLnHai0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <type xmi:id="_PLnHay0EEeymDfdGR2qsSg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_PLnHbC0EEeymDfdGR2qsSg" name="BankStatement">
+      <modelElement href="surepay-assignment.uml#_OuNZoC0EEeymDfdGR2qsSg"/>
+      <visualProperties xmi:id="_Xw_MQC0FEeymDfdGR2qsSg"/>
+      <keywords xmi:id="_PLnHbS0EEeymDfdGR2qsSg" keyword="create"/>
+      <visibility xmi:id="_PLnHbi0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PLnHby0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PLnHcC0EEeymDfdGR2qsSg">
+        <modelElement href="surepay-assignment.uml#_OuOAsi0EEeymDfdGR2qsSg"/>
+        <type xmi:id="_PLnHcS0EEeymDfdGR2qsSg" name="BankStatement">
+          <modelElement href="surepay-assignment.uml#_OuLkcC0EEeymDfdGR2qsSg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_PLnHci0EEeymDfdGR2qsSg" name="BankStatement">
+      <modelElement href="surepay-assignment.uml#_OuOnwC0EEeymDfdGR2qsSg"/>
+      <visualProperties xmi:id="_XxAaYC0FEeymDfdGR2qsSg"/>
+      <keywords xmi:id="_PLnHcy0EEeymDfdGR2qsSg" keyword="create"/>
+      <visibility xmi:id="_PLnHdC0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PLnHdS0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PLnHdi0EEeymDfdGR2qsSg">
+        <modelElement href="surepay-assignment.uml#_OuPO1S0EEeymDfdGR2qsSg"/>
+        <type xmi:id="_PLnHdy0EEeymDfdGR2qsSg" name="BankStatement">
+          <modelElement href="surepay-assignment.uml#_OuLkcC0EEeymDfdGR2qsSg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PLnHeC0EEeymDfdGR2qsSg" name="reference">
+        <modelElement href="surepay-assignment.uml#_OuOnwS0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PLnHeS0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PLnHei0EEeymDfdGR2qsSg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PLnHey0EEeymDfdGR2qsSg" name="accountNumber">
+        <modelElement href="surepay-assignment.uml#_OuOnwi0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PLnHfC0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PLnHfS0EEeymDfdGR2qsSg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PLnHfi0EEeymDfdGR2qsSg" name="description">
+        <modelElement href="surepay-assignment.uml#_OuOnwy0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PLnHfy0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PLnHgC0EEeymDfdGR2qsSg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PLnHgS0EEeymDfdGR2qsSg" name="startBalance">
+        <modelElement href="surepay-assignment.uml#_OuPO0C0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PLnHgi0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PLnHgy0EEeymDfdGR2qsSg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PLnHhC0EEeymDfdGR2qsSg" name="mutation">
+        <modelElement href="surepay-assignment.uml#_OuPO0S0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PLnHhS0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PLnHhi0EEeymDfdGR2qsSg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PLnHhy0EEeymDfdGR2qsSg" name="endBalance">
+        <modelElement href="surepay-assignment.uml#_OuPO0i0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PLnHiC0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PLnHiS0EEeymDfdGR2qsSg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PLnHii0EEeymDfdGR2qsSg" name="toString">
+      <modelElement href="surepay-assignment.uml#_OuP14C0EEeymDfdGR2qsSg"/>
+      <visualProperties xmi:id="_XxAaYS0FEeymDfdGR2qsSg"/>
+      <stereotypes xmi:id="_PLnHiy0EEeymDfdGR2qsSg" name="LegacyStyledElement">
+        <modelElement href="surepay-assignment.uml#_OuQc8S0EEeymDfdGR2qsSg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PLnHjC0EEeymDfdGR2qsSg" name="Annotations">
+        <modelElement href="surepay-assignment.uml#_OuREAC0EEeymDfdGR2qsSg"/>
+      </stereotypes>
+      <visibility xmi:id="_PLnHjS0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PLnHji0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PLnHjy0EEeymDfdGR2qsSg">
+        <modelElement href="surepay-assignment.uml#_OuQc8C0EEeymDfdGR2qsSg"/>
+        <type xmi:id="_PLnHkC0EEeymDfdGR2qsSg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PLd9YC0EEeymDfdGR2qsSg" name="ExceptionReport">
+    <modelElement href="surepay-assignment.uml#_OuUuYC0EEeymDfdGR2qsSg"/>
+    <visualProperties xmi:id="_PLd9YS0EEeymDfdGR2qsSg" position="830.0,682.0" size="356.0,231.0"/>
+    <visibility xmi:id="_PLd9Yi0EEeymDfdGR2qsSg" label="+"/>
+    <attributes xmi:id="_PLd9Yy0EEeymDfdGR2qsSg" name="referenceNumber">
+      <modelElement href="surepay-assignment.uml#_OyhR4C0EEeymDfdGR2qsSg"/>
+      <stereotypes xmi:id="_PLd9ZC0EEeymDfdGR2qsSg" name="LegacyStyledElement">
+        <modelElement href="surepay-assignment.uml#_Oyh48C0EEeymDfdGR2qsSg"/>
+      </stereotypes>
+      <visibility xmi:id="_PLd9ZS0EEeymDfdGR2qsSg" label="~"/>
+      <cardinality xmi:id="_PLd9Zi0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <type xmi:id="_PLd9Zy0EEeymDfdGR2qsSg" name="BigInteger">
+        <modelElement href="surepay-assignment.uml#_OxNDQC0EEeymDfdGR2qsSg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PLd9aC0EEeymDfdGR2qsSg" name="description">
+      <modelElement href="surepay-assignment.uml#_Oyh48S0EEeymDfdGR2qsSg"/>
+      <stereotypes xmi:id="_PLd9aS0EEeymDfdGR2qsSg" name="LegacyStyledElement">
+        <modelElement href="surepay-assignment.uml#_OyigAC0EEeymDfdGR2qsSg"/>
+      </stereotypes>
+      <visibility xmi:id="_PLd9ai0EEeymDfdGR2qsSg" label="~"/>
+      <cardinality xmi:id="_PLd9ay0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <type xmi:id="_PLd9bC0EEeymDfdGR2qsSg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_PLd9bS0EEeymDfdGR2qsSg" name="ExceptionReport">
+      <modelElement href="surepay-assignment.uml#_OuV8gC0EEeymDfdGR2qsSg"/>
+      <keywords xmi:id="_PLd9bi0EEeymDfdGR2qsSg" keyword="create"/>
+      <visibility xmi:id="_PLd9by0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PLd9cC0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PLd9cS0EEeymDfdGR2qsSg">
+        <modelElement href="surepay-assignment.uml#_OuV8gy0EEeymDfdGR2qsSg"/>
+        <type xmi:id="_PLd9ci0EEeymDfdGR2qsSg" name="ExceptionReport">
+          <modelElement href="surepay-assignment.uml#_OuUuYC0EEeymDfdGR2qsSg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_PLd9cy0EEeymDfdGR2qsSg" name="getReferenceNumber">
+      <modelElement href="surepay-assignment.uml#_OuWjkC0EEeymDfdGR2qsSg"/>
+      <visibility xmi:id="_PLd9dC0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PLd9dS0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PLd9di0EEeymDfdGR2qsSg">
+        <modelElement href="surepay-assignment.uml#_OyJecC0EEeymDfdGR2qsSg"/>
+        <type xmi:id="_PLd9dy0EEeymDfdGR2qsSg" name="BigInteger">
+          <modelElement href="surepay-assignment.uml#_OxNDQC0EEeymDfdGR2qsSg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_PLd9eC0EEeymDfdGR2qsSg" name="getDescription">
+      <modelElement href="surepay-assignment.uml#_OuXKoC0EEeymDfdGR2qsSg"/>
+      <visibility xmi:id="_PLd9eS0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PLd9ei0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PLd9ey0EEeymDfdGR2qsSg">
+        <modelElement href="surepay-assignment.uml#_OuXxsC0EEeymDfdGR2qsSg"/>
+        <type xmi:id="_PLd9fC0EEeymDfdGR2qsSg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_PLd9fS0EEeymDfdGR2qsSg" name="setDescription">
+      <modelElement href="surepay-assignment.uml#_OuXxsS0EEeymDfdGR2qsSg"/>
+      <visibility xmi:id="_PLd9fi0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PLd9fy0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_PLd9gC0EEeymDfdGR2qsSg" name="description">
+        <modelElement href="surepay-assignment.uml#_OuXxsi0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PLd9gS0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PLd9gi0EEeymDfdGR2qsSg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PLd9gy0EEeymDfdGR2qsSg" name="toString">
+      <modelElement href="surepay-assignment.uml#_OuYYwC0EEeymDfdGR2qsSg"/>
+      <stereotypes xmi:id="_PLd9hC0EEeymDfdGR2qsSg" name="LegacyStyledElement">
+        <modelElement href="surepay-assignment.uml#_OuYYwi0EEeymDfdGR2qsSg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PLd9hS0EEeymDfdGR2qsSg" name="Annotations">
+        <modelElement href="surepay-assignment.uml#_OuY_0C0EEeymDfdGR2qsSg"/>
+      </stereotypes>
+      <visibility xmi:id="_PLd9hi0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PLd9hy0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PLd9iC0EEeymDfdGR2qsSg">
+        <modelElement href="surepay-assignment.uml#_OuYYwS0EEeymDfdGR2qsSg"/>
+        <type xmi:id="_PLd9iS0EEeymDfdGR2qsSg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_PLd9ii0EEeymDfdGR2qsSg" name="setReferenceNumber">
+      <modelElement href="surepay-assignment.uml#_OyJecS0EEeymDfdGR2qsSg"/>
+      <visibility xmi:id="_PLd9iy0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PLd9jC0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_PLd9jS0EEeymDfdGR2qsSg" name="referenceNumber">
+        <modelElement href="surepay-assignment.uml#_OyJeci0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PLd9ji0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PLd9jy0EEeymDfdGR2qsSg" name="BigInteger">
+          <modelElement href="surepay-assignment.uml#_OxNDQC0EEeymDfdGR2qsSg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_PMgfMC0EEeymDfdGR2qsSg" name="UtilityService" subclassedBy="_PMc00C0EEeymDfdGR2qsSg">
+    <modelElement href="surepay-assignment.uml#_OuzPgC0EEeymDfdGR2qsSg"/>
+    <visualProperties xmi:id="_PMgfMS0EEeymDfdGR2qsSg" position="-2244.0,16.0" size="426.0,119.0"/>
+    <visibility xmi:id="_PMgfMi0EEeymDfdGR2qsSg" label="+"/>
+    <operations xmi:id="_PMgfMy0EEeymDfdGR2qsSg" name="generateExceptionReport">
+      <modelElement href="surepay-assignment.uml#_OySoYS0EEeymDfdGR2qsSg"/>
+      <visibility xmi:id="_PMgfNC0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PMgfNS0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PMgfNi0EEeymDfdGR2qsSg">
+        <modelElement href="surepay-assignment.uml#_OyTPcC0EEeymDfdGR2qsSg"/>
+        <type xmi:id="_PMgfNy0EEeymDfdGR2qsSg" name="ExceptionReport">
+          <modelElement href="surepay-assignment.uml#_OuUuYC0EEeymDfdGR2qsSg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PMgfOC0EEeymDfdGR2qsSg" name="bankStatment">
+        <modelElement href="surepay-assignment.uml#_OySoYi0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PMgfOS0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PMgfOi0EEeymDfdGR2qsSg" name="BankStatement">
+          <modelElement href="surepay-assignment.uml#_OuLkcC0EEeymDfdGR2qsSg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PMgfOy0EEeymDfdGR2qsSg" name="trackingReport">
+        <modelElement href="surepay-assignment.uml#_OySoYy0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PMgfPC0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PMgfPS0EEeymDfdGR2qsSg" name="HashMap">
+          <modelElement href="surepay-assignment.uml#_OxSi0C0EEeymDfdGR2qsSg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PMgfPi0EEeymDfdGR2qsSg" name="exceptionReportList">
+        <modelElement href="surepay-assignment.uml#_OySoZC0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PMgfPy0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PMgfQC0EEeymDfdGR2qsSg" name="ArrayList">
+          <modelElement href="surepay-assignment.uml#_OwyzkS0EEeymDfdGR2qsSg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PKgUEC0EEeymDfdGR2qsSg" name="FileUploadController" associationsOut="_PKV8AC0EEeymDfdGR2qsSg _PKd30C0EEeymDfdGR2qsSg _PKfF8C0EEeymDfdGR2qsSg _PKftAC0EEeymDfdGR2qsSg">
+    <modelElement href="surepay-assignment.uml#_OtpY8C0EEeymDfdGR2qsSg"/>
+    <visualProperties xmi:id="_PKgUES0EEeymDfdGR2qsSg" position="155.0,410.0" size="560.0,230.0"/>
+    <stereotypes xmi:id="_PKgUEi0EEeymDfdGR2qsSg" name="LegacyStyledElement">
+      <modelElement href="surepay-assignment.uml#_OtqnEC0EEeymDfdGR2qsSg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_PKgUEy0EEeymDfdGR2qsSg" name="Annotations">
+      <modelElement href="surepay-assignment.uml#_Otu4gC0EEeymDfdGR2qsSg"/>
+    </stereotypes>
+    <visibility xmi:id="_PKgUFC0EEeymDfdGR2qsSg" label="+"/>
+    <attributes xmi:id="_PKgUFS0EEeymDfdGR2qsSg" name="storageService">
+      <modelElement href="surepay-assignment.uml#_OyYvAi0EEeymDfdGR2qsSg"/>
+      <stereotypes xmi:id="_PKgUFi0EEeymDfdGR2qsSg" name="Annotations">
+        <modelElement href="surepay-assignment.uml#_OyZWEC0EEeymDfdGR2qsSg"/>
+      </stereotypes>
+      <visibility xmi:id="_PKgUFy0EEeymDfdGR2qsSg" label="-"/>
+      <cardinality xmi:id="_PKgUGC0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <type xmi:id="_PKgUGS0EEeymDfdGR2qsSg" name="StorageService">
+        <modelElement href="surepay-assignment.uml#_OuwMMC0EEeymDfdGR2qsSg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PKgUGi0EEeymDfdGR2qsSg" name="csvFileStrategy">
+      <modelElement href="surepay-assignment.uml#_OyZWEi0EEeymDfdGR2qsSg"/>
+      <stereotypes xmi:id="_PKgUGy0EEeymDfdGR2qsSg" name="Annotations">
+        <modelElement href="surepay-assignment.uml#_OyZ9IC0EEeymDfdGR2qsSg"/>
+      </stereotypes>
+      <visibility xmi:id="_PKgUHC0EEeymDfdGR2qsSg" label="-"/>
+      <cardinality xmi:id="_PKgUHS0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <type xmi:id="_PKgUHi0EEeymDfdGR2qsSg" name="FileStrategy">
+        <modelElement href="surepay-assignment.uml#_Ouiw0C0EEeymDfdGR2qsSg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PKgUHy0EEeymDfdGR2qsSg" name="exceptionReport">
+      <modelElement href="surepay-assignment.uml#_OyakMC0EEeymDfdGR2qsSg"/>
+      <stereotypes xmi:id="_PKgUIC0EEeymDfdGR2qsSg" name="Generics">
+        <modelElement href="surepay-assignment.uml#_OyakMS0EEeymDfdGR2qsSg"/>
+      </stereotypes>
+      <visibility xmi:id="_PKgUIS0EEeymDfdGR2qsSg" label="-"/>
+      <cardinality xmi:id="_PKgUIi0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <type xmi:id="_PKgUIy0EEeymDfdGR2qsSg" name="ArrayList">
+        <modelElement href="surepay-assignment.uml#_OwyzkS0EEeymDfdGR2qsSg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PKgUJC0EEeymDfdGR2qsSg" name="jsonFileStrategy">
+      <modelElement href="surepay-assignment.uml#_OybLQC0EEeymDfdGR2qsSg"/>
+      <stereotypes xmi:id="_PKgUJS0EEeymDfdGR2qsSg" name="Annotations">
+        <modelElement href="surepay-assignment.uml#_OybLQS0EEeymDfdGR2qsSg"/>
+      </stereotypes>
+      <visibility xmi:id="_PKgUJi0EEeymDfdGR2qsSg" label="-"/>
+      <cardinality xmi:id="_PKgUJy0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <type xmi:id="_PKgUKC0EEeymDfdGR2qsSg" name="FileStrategy">
+        <modelElement href="surepay-assignment.uml#_Ouiw0C0EEeymDfdGR2qsSg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_PKgUKS0EEeymDfdGR2qsSg" name="FileUploadController">
+      <modelElement href="surepay-assignment.uml#_Otr1MC0EEeymDfdGR2qsSg"/>
+      <keywords xmi:id="_PKgUKi0EEeymDfdGR2qsSg" keyword="create"/>
+      <stereotypes xmi:id="_PKgUKy0EEeymDfdGR2qsSg" name="StyledElement">
+        <modelElement href="surepay-assignment.uml#_OtscQS0EEeymDfdGR2qsSg"/>
+      </stereotypes>
+      <visibility xmi:id="_PKgULC0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PKgULS0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PKgULi0EEeymDfdGR2qsSg">
+        <modelElement href="surepay-assignment.uml#_OtscQC0EEeymDfdGR2qsSg"/>
+        <type xmi:id="_PKgULy0EEeymDfdGR2qsSg" name="FileUploadController">
+          <modelElement href="surepay-assignment.uml#_OtpY8C0EEeymDfdGR2qsSg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_PKgUMC0EEeymDfdGR2qsSg" name="FileUploadController">
+      <modelElement href="surepay-assignment.uml#_OxEgYC0EEeymDfdGR2qsSg"/>
+      <keywords xmi:id="_PKgUMS0EEeymDfdGR2qsSg" keyword="create"/>
+      <stereotypes xmi:id="_PKgUMi0EEeymDfdGR2qsSg" name="Annotations">
+        <modelElement href="surepay-assignment.uml#_OxFugC0EEeymDfdGR2qsSg"/>
+      </stereotypes>
+      <visibility xmi:id="_PKgUMy0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PKgUNC0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PKgUNS0EEeymDfdGR2qsSg">
+        <modelElement href="surepay-assignment.uml#_OxFHcy0EEeymDfdGR2qsSg"/>
+        <type xmi:id="_PKgUNi0EEeymDfdGR2qsSg" name="FileUploadController">
+          <modelElement href="surepay-assignment.uml#_OtpY8C0EEeymDfdGR2qsSg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PKgUNy0EEeymDfdGR2qsSg" name="storageService">
+        <modelElement href="surepay-assignment.uml#_OxFHcC0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PKgUOC0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PKgUOS0EEeymDfdGR2qsSg" name="StorageService">
+          <modelElement href="surepay-assignment.uml#_OuwMMC0EEeymDfdGR2qsSg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PKgUOi0EEeymDfdGR2qsSg" name="handleStorageFileNotFound">
+      <modelElement href="surepay-assignment.uml#_OxGVkC0EEeymDfdGR2qsSg"/>
+      <stereotypes xmi:id="_PKgUOy0EEeymDfdGR2qsSg" name="Generics">
+        <modelElement href="surepay-assignment.uml#_OxG8oC0EEeymDfdGR2qsSg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PKgUPC0EEeymDfdGR2qsSg" name="Annotations">
+        <modelElement href="surepay-assignment.uml#_OxIKwC0EEeymDfdGR2qsSg"/>
+      </stereotypes>
+      <visibility xmi:id="_PKgUPS0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PKgUPi0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PKgUPy0EEeymDfdGR2qsSg">
+        <modelElement href="surepay-assignment.uml#_OyA7kC0EEeymDfdGR2qsSg"/>
+        <type xmi:id="_PKgUQC0EEeymDfdGR2qsSg" name="ResponseEntity">
+          <modelElement href="surepay-assignment.uml#_Ow4TIS0EEeymDfdGR2qsSg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PKgUQS0EEeymDfdGR2qsSg" name="exc">
+        <modelElement href="surepay-assignment.uml#_OxGVkS0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PKgUQi0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PKgUQy0EEeymDfdGR2qsSg" name="StorageFileNotFoundException">
+          <modelElement href="surepay-assignment.uml#_OuH6EC0EEeymDfdGR2qsSg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PKgURC0EEeymDfdGR2qsSg" name="listUploadedFiles">
+      <modelElement href="surepay-assignment.uml#_Ox3xoC0EEeymDfdGR2qsSg"/>
+      <stereotypes xmi:id="_PKgURS0EEeymDfdGR2qsSg" name="Annotations">
+        <modelElement href="surepay-assignment.uml#_Ox7cAC0EEeymDfdGR2qsSg"/>
+      </stereotypes>
+      <visibility xmi:id="_PKgURi0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PKgURy0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PKgUSC0EEeymDfdGR2qsSg">
+        <modelElement href="surepay-assignment.uml#_Ox3xoi0EEeymDfdGR2qsSg"/>
+        <type xmi:id="_PKgUSS0EEeymDfdGR2qsSg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PKgUSi0EEeymDfdGR2qsSg" name="model">
+        <modelElement href="surepay-assignment.uml#_Ox3xoS0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PKgUSy0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PKgUTC0EEeymDfdGR2qsSg" name="Model">
+          <modelElement href="surepay-assignment.uml#_Ow7WcC0EEeymDfdGR2qsSg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PKgUTS0EEeymDfdGR2qsSg" name="handleFileUpload">
+      <modelElement href="surepay-assignment.uml#_Ox8DES0EEeymDfdGR2qsSg"/>
+      <stereotypes xmi:id="_PKgUTi0EEeymDfdGR2qsSg" name="Annotations">
+        <modelElement href="surepay-assignment.uml#_Ox-fUC0EEeymDfdGR2qsSg"/>
+      </stereotypes>
+      <visibility xmi:id="_PKgUTy0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PKgUUC0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PKgUUS0EEeymDfdGR2qsSg">
+        <modelElement href="surepay-assignment.uml#_Ox8qIy0EEeymDfdGR2qsSg"/>
+        <type xmi:id="_PKgUUi0EEeymDfdGR2qsSg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PKgUUy0EEeymDfdGR2qsSg" name="file">
+        <modelElement href="surepay-assignment.uml#_Ox8qIC0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PKgUVC0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PKgUVS0EEeymDfdGR2qsSg" name="MultipartFile">
+          <modelElement href="surepay-assignment.uml#_OxCEIC0EEeymDfdGR2qsSg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PKgUVi0EEeymDfdGR2qsSg" name="redirectAttributes">
+        <modelElement href="surepay-assignment.uml#_Ox8qIS0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PKgUVy0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PKgUWC0EEeymDfdGR2qsSg" name="RedirectAttributes">
+          <modelElement href="surepay-assignment.uml#_OxCrMS0EEeymDfdGR2qsSg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PKgUWS0EEeymDfdGR2qsSg" name="fileType">
+        <modelElement href="surepay-assignment.uml#_Ox8qIi0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PKgUWi0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PKgUWy0EEeymDfdGR2qsSg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PKgUXC0EEeymDfdGR2qsSg" name="showReport">
+      <modelElement href="surepay-assignment.uml#_Ox-fUy0EEeymDfdGR2qsSg"/>
+      <stereotypes xmi:id="_PKgUXS0EEeymDfdGR2qsSg" name="Annotations">
+        <modelElement href="surepay-assignment.uml#_OyAUgi0EEeymDfdGR2qsSg"/>
+      </stereotypes>
+      <visibility xmi:id="_PKgUXi0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PKgUXy0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PKgUYC0EEeymDfdGR2qsSg">
+        <modelElement href="surepay-assignment.uml#_Ox_GYi0EEeymDfdGR2qsSg"/>
+        <type xmi:id="_PKgUYS0EEeymDfdGR2qsSg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PKgUYi0EEeymDfdGR2qsSg" name="exceptionReport">
+        <modelElement href="surepay-assignment.uml#_Ox_GYC0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PKgUYy0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PKgUZC0EEeymDfdGR2qsSg" name="ArrayList">
+          <modelElement href="surepay-assignment.uml#_OwyzkS0EEeymDfdGR2qsSg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PKgUZS0EEeymDfdGR2qsSg" name="model">
+        <modelElement href="surepay-assignment.uml#_Ox_GYS0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PKgUZi0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PKgUZy0EEeymDfdGR2qsSg" name="Model">
+          <modelElement href="surepay-assignment.uml#_Ow7WcC0EEeymDfdGR2qsSg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PLzUkC0EEeymDfdGR2qsSg" name="JsonFileStrategyImplimentation" associationsOut="_PLyGcC0EEeymDfdGR2qsSg _PLytgC0EEeymDfdGR2qsSg" generalizations="_PLt1AC0EEeymDfdGR2qsSg">
+    <modelElement href="surepay-assignment.uml#_OurTsC0EEeymDfdGR2qsSg"/>
+    <visualProperties xmi:id="_PLzUkS0EEeymDfdGR2qsSg" position="-785.0,698.0" size="420.0,138.0"/>
+    <stereotypes xmi:id="_PLzUki0EEeymDfdGR2qsSg" name="LegacyStyledElement">
+      <modelElement href="surepay-assignment.uml#_Our6wC0EEeymDfdGR2qsSg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_PLzUky0EEeymDfdGR2qsSg" name="Annotations">
+      <modelElement href="surepay-assignment.uml#_OutI4C0EEeymDfdGR2qsSg"/>
+    </stereotypes>
+    <visibility xmi:id="_PLzUlC0EEeymDfdGR2qsSg" label="+"/>
+    <attributes xmi:id="_PLzUlS0EEeymDfdGR2qsSg" name="utility">
+      <modelElement href="surepay-assignment.uml#_OyjuIS0EEeymDfdGR2qsSg"/>
+      <visibility xmi:id="_PLzUli0EEeymDfdGR2qsSg" label="-"/>
+      <cardinality xmi:id="_PLzUly0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <type xmi:id="_PLzUmC0EEeymDfdGR2qsSg" name="Utils">
+        <modelElement href="surepay-assignment.uml#_Ou1EsC0EEeymDfdGR2qsSg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PLzUmS0EEeymDfdGR2qsSg" defaultValue="LoggerFactory.getLogger(JsonFileStrategyImplimentation.class)" name="logger">
+      <modelElement href="surepay-assignment.uml#_OykVMC0EEeymDfdGR2qsSg"/>
+      <visibility xmi:id="_PLzUmi0EEeymDfdGR2qsSg" label="-"/>
+      <cardinality xmi:id="_PLzUmy0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <type xmi:id="_PLzUnC0EEeymDfdGR2qsSg" name="Logger">
+        <modelElement href="surepay-assignment.uml#_OxSi0i0EEeymDfdGR2qsSg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_PLzUnS0EEeymDfdGR2qsSg" name="JsonFileStrategyImplimentation">
+      <modelElement href="surepay-assignment.uml#_OxsLcC0EEeymDfdGR2qsSg"/>
+      <keywords xmi:id="_PLzUni0EEeymDfdGR2qsSg" keyword="create"/>
+      <stereotypes xmi:id="_PLzUny0EEeymDfdGR2qsSg" name="Annotations">
+        <modelElement href="surepay-assignment.uml#_OxtZkC0EEeymDfdGR2qsSg"/>
+      </stereotypes>
+      <visibility xmi:id="_PLzUoC0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PLzUoS0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PLzUoi0EEeymDfdGR2qsSg">
+        <modelElement href="surepay-assignment.uml#_Oxsygi0EEeymDfdGR2qsSg"/>
+        <type xmi:id="_PLzUoy0EEeymDfdGR2qsSg" name="JsonFileStrategyImplimentation">
+          <modelElement href="surepay-assignment.uml#_OurTsC0EEeymDfdGR2qsSg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PLzUpC0EEeymDfdGR2qsSg" name="utility">
+        <modelElement href="surepay-assignment.uml#_OxsLcS0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PLzUpS0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PLzUpi0EEeymDfdGR2qsSg" name="Utils">
+          <modelElement href="surepay-assignment.uml#_Ou1EsC0EEeymDfdGR2qsSg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PLzUpy0EEeymDfdGR2qsSg" name="processRecords">
+      <modelElement href="surepay-assignment.uml#_OyQMIC0EEeymDfdGR2qsSg"/>
+      <stereotypes xmi:id="_PLzUqC0EEeymDfdGR2qsSg" name="Generics">
+        <modelElement href="surepay-assignment.uml#_OyQzMC0EEeymDfdGR2qsSg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PLzUqS0EEeymDfdGR2qsSg" name="Annotations">
+        <modelElement href="surepay-assignment.uml#_OyRaQC0EEeymDfdGR2qsSg"/>
+      </stereotypes>
+      <visibility xmi:id="_PLzUqi0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PLzUqy0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PLzUrC0EEeymDfdGR2qsSg">
+        <modelElement href="surepay-assignment.uml#_OyQzMS0EEeymDfdGR2qsSg"/>
+        <type xmi:id="_PLzUrS0EEeymDfdGR2qsSg" name="ArrayList">
+          <modelElement href="surepay-assignment.uml#_OwyzkS0EEeymDfdGR2qsSg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PLzUri0EEeymDfdGR2qsSg" name="path">
+        <modelElement href="surepay-assignment.uml#_OyQMIS0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PLzUry0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PLzUsC0EEeymDfdGR2qsSg" name="Path">
+          <modelElement href="surepay-assignment.uml#_OxRUsS0EEeymDfdGR2qsSg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PL9FkC0EEeymDfdGR2qsSg" name="CsvFileStrategyImplimentation" associationsOut="_PL5bMS0EEeymDfdGR2qsSg _PL6CQC0EEeymDfdGR2qsSg" generalizations="_PL5bMC0EEeymDfdGR2qsSg">
+    <modelElement href="surepay-assignment.uml#_Oua1AC0EEeymDfdGR2qsSg"/>
+    <visualProperties xmi:id="_PL9FkS0EEeymDfdGR2qsSg" position="-1616.0,483.0" size="460.0,184.0"/>
+    <stereotypes xmi:id="_PL9Fki0EEeymDfdGR2qsSg" name="LegacyStyledElement">
+      <modelElement href="surepay-assignment.uml#_OucDIC0EEeymDfdGR2qsSg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_PL9Fky0EEeymDfdGR2qsSg" name="Annotations">
+      <modelElement href="surepay-assignment.uml#_OuefYC0EEeymDfdGR2qsSg"/>
+    </stereotypes>
+    <visibility xmi:id="_PL9FlC0EEeymDfdGR2qsSg" label="+"/>
+    <attributes xmi:id="_PL9FlS0EEeymDfdGR2qsSg" defaultValue="LoggerFactory.getLogger(CsvFileStrategyImplimentation.class)" name="logger">
+      <modelElement href="surepay-assignment.uml#_OyigAS0EEeymDfdGR2qsSg"/>
+      <visibility xmi:id="_PL9Fli0EEeymDfdGR2qsSg" label="-"/>
+      <cardinality xmi:id="_PL9Fly0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <type xmi:id="_PL9FmC0EEeymDfdGR2qsSg" name="Logger">
+        <modelElement href="surepay-assignment.uml#_OxSi0i0EEeymDfdGR2qsSg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PL9FmS0EEeymDfdGR2qsSg" name="utility">
+      <modelElement href="surepay-assignment.uml#_OyjHEC0EEeymDfdGR2qsSg"/>
+      <visibility xmi:id="_PL9Fmi0EEeymDfdGR2qsSg" label="-"/>
+      <cardinality xmi:id="_PL9Fmy0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <type xmi:id="_PL9FnC0EEeymDfdGR2qsSg" name="Utils">
+        <modelElement href="surepay-assignment.uml#_Ou1EsC0EEeymDfdGR2qsSg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_PL9FnS0EEeymDfdGR2qsSg" name="CsvFileStrategyImplimentation">
+      <modelElement href="surepay-assignment.uml#_OucqMC0EEeymDfdGR2qsSg"/>
+      <keywords xmi:id="_PL9Fni0EEeymDfdGR2qsSg" keyword="create"/>
+      <stereotypes xmi:id="_PL9Fny0EEeymDfdGR2qsSg" name="StyledElement">
+        <modelElement href="surepay-assignment.uml#_Oud4UC0EEeymDfdGR2qsSg"/>
+      </stereotypes>
+      <visibility xmi:id="_PL9FoC0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PL9FoS0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PL9Foi0EEeymDfdGR2qsSg">
+        <modelElement href="surepay-assignment.uml#_OudRQi0EEeymDfdGR2qsSg"/>
+        <type xmi:id="_PL9Foy0EEeymDfdGR2qsSg" name="CsvFileStrategyImplimentation">
+          <modelElement href="surepay-assignment.uml#_Oua1AC0EEeymDfdGR2qsSg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_PL9FpC0EEeymDfdGR2qsSg" name="CsvFileStrategyImplimentation">
+      <modelElement href="surepay-assignment.uml#_OxbFsC0EEeymDfdGR2qsSg"/>
+      <keywords xmi:id="_PL9FpS0EEeymDfdGR2qsSg" keyword="create"/>
+      <stereotypes xmi:id="_PL9Fpi0EEeymDfdGR2qsSg" name="Annotations">
+        <modelElement href="surepay-assignment.uml#_OxcT0C0EEeymDfdGR2qsSg"/>
+      </stereotypes>
+      <visibility xmi:id="_PL9Fpy0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PL9FqC0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PL9FqS0EEeymDfdGR2qsSg">
+        <modelElement href="surepay-assignment.uml#_Oxbswy0EEeymDfdGR2qsSg"/>
+        <type xmi:id="_PL9Fqi0EEeymDfdGR2qsSg" name="CsvFileStrategyImplimentation">
+          <modelElement href="surepay-assignment.uml#_Oua1AC0EEeymDfdGR2qsSg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PL9Fqy0EEeymDfdGR2qsSg" name="utility">
+        <modelElement href="surepay-assignment.uml#_OxbswC0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PL9FrC0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PL9FrS0EEeymDfdGR2qsSg" name="Utils">
+          <modelElement href="surepay-assignment.uml#_Ou1EsC0EEeymDfdGR2qsSg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PL9Fri0EEeymDfdGR2qsSg" name="convertArrayToObject">
+      <modelElement href="surepay-assignment.uml#_Oxc64C0EEeymDfdGR2qsSg"/>
+      <visibility xmi:id="_PL9Fry0EEeymDfdGR2qsSg" label="-"/>
+      <cardinality xmi:id="_PL9FsC0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PL9FsS0EEeymDfdGR2qsSg">
+        <modelElement href="surepay-assignment.uml#_Oxdh8S0EEeymDfdGR2qsSg"/>
+        <type xmi:id="_PL9Fsi0EEeymDfdGR2qsSg" name="BankStatement">
+          <modelElement href="surepay-assignment.uml#_OuLkcC0EEeymDfdGR2qsSg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PL9Fsy0EEeymDfdGR2qsSg" name="row">
+        <modelElement href="surepay-assignment.uml#_Oxc64S0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PL9FtC0EEeymDfdGR2qsSg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_PL9FtS0EEeymDfdGR2qsSg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PL9Fti0EEeymDfdGR2qsSg" name="bankStatement">
+        <modelElement href="surepay-assignment.uml#_Oxdh8C0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PL9Fty0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PL9FuC0EEeymDfdGR2qsSg" name="BankStatement">
+          <modelElement href="surepay-assignment.uml#_OuLkcC0EEeymDfdGR2qsSg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PL9FuS0EEeymDfdGR2qsSg" name="processRecords">
+      <modelElement href="surepay-assignment.uml#_OyKskC0EEeymDfdGR2qsSg"/>
+      <stereotypes xmi:id="_PL9Fui0EEeymDfdGR2qsSg" name="Annotations">
+        <modelElement href="surepay-assignment.uml#_OyL6sC0EEeymDfdGR2qsSg"/>
+      </stereotypes>
+      <visibility xmi:id="_PL9Fuy0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PL9FvC0EEeymDfdGR2qsSg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_PL9FvS0EEeymDfdGR2qsSg">
+        <modelElement href="surepay-assignment.uml#_OyLToC0EEeymDfdGR2qsSg"/>
+        <type xmi:id="_PL9Fvi0EEeymDfdGR2qsSg" name="ExceptionReport">
+          <modelElement href="surepay-assignment.uml#_OuUuYC0EEeymDfdGR2qsSg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PL9Fvy0EEeymDfdGR2qsSg" name="path">
+        <modelElement href="surepay-assignment.uml#_OyKskS0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PL9FwC0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PL9FwS0EEeymDfdGR2qsSg" name="Path">
+          <modelElement href="surepay-assignment.uml#_OxRUsS0EEeymDfdGR2qsSg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_PMClIC0EEeymDfdGR2qsSg" name="FileStrategy" associationsIn="_PKd30C0EEeymDfdGR2qsSg _PKftAC0EEeymDfdGR2qsSg" subclassedBy="_PLt1AC0EEeymDfdGR2qsSg _PL5bMC0EEeymDfdGR2qsSg">
+    <modelElement href="surepay-assignment.uml#_Ouiw0C0EEeymDfdGR2qsSg"/>
+    <visualProperties xmi:id="_PMClIS0EEeymDfdGR2qsSg" position="-936.0,140.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_PMClIi0EEeymDfdGR2qsSg" label="+"/>
+    <operations xmi:id="_PMClIy0EEeymDfdGR2qsSg" name="processRecords">
+      <modelElement href="surepay-assignment.uml#_OyMhwC0EEeymDfdGR2qsSg"/>
+      <visibility xmi:id="_PMClJC0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PMClJS0EEeymDfdGR2qsSg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_PMClJi0EEeymDfdGR2qsSg">
+        <modelElement href="surepay-assignment.uml#_OyNI0S0EEeymDfdGR2qsSg"/>
+        <type xmi:id="_PMClJy0EEeymDfdGR2qsSg" name="ExceptionReport">
+          <modelElement href="surepay-assignment.uml#_OuUuYC0EEeymDfdGR2qsSg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PMClKC0EEeymDfdGR2qsSg" name="path">
+        <modelElement href="surepay-assignment.uml#_OyNI0C0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PMClKS0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PMClKi0EEeymDfdGR2qsSg" name="Path">
+          <modelElement href="surepay-assignment.uml#_OxRUsS0EEeymDfdGR2qsSg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PMi7cC0EEeymDfdGR2qsSg" name="Utils" associationsIn="_PL6CQC0EEeymDfdGR2qsSg _PLyGcC0EEeymDfdGR2qsSg" generalizations="_PMc00C0EEeymDfdGR2qsSg">
+    <modelElement href="surepay-assignment.uml#_Ou1EsC0EEeymDfdGR2qsSg"/>
+    <visualProperties xmi:id="_PMi7cS0EEeymDfdGR2qsSg" position="-2281.0,210.0" size="365.0,135.0"/>
+    <stereotypes xmi:id="_PMi7ci0EEeymDfdGR2qsSg" name="LegacyStyledElement">
+      <modelElement href="surepay-assignment.uml#_Ou1rwC0EEeymDfdGR2qsSg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_PMi7cy0EEeymDfdGR2qsSg" name="Annotations">
+      <modelElement href="surepay-assignment.uml#_Ou3g8C0EEeymDfdGR2qsSg"/>
+    </stereotypes>
+    <visibility xmi:id="_PMi7dC0EEeymDfdGR2qsSg" label="+"/>
+    <operations xmi:id="_PMi7dS0EEeymDfdGR2qsSg" name="currencyFormat">
+      <modelElement href="surepay-assignment.uml#_Ou2S0C0EEeymDfdGR2qsSg"/>
+      <stereotypes xmi:id="_PMi7di0EEeymDfdGR2qsSg" name="StyledElement">
+        <modelElement href="surepay-assignment.uml#_Ou254S0EEeymDfdGR2qsSg"/>
+      </stereotypes>
+      <visibility xmi:id="_PMi7dy0EEeymDfdGR2qsSg" label="-"/>
+      <cardinality xmi:id="_PMi7eC0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PMi7eS0EEeymDfdGR2qsSg">
+        <modelElement href="surepay-assignment.uml#_Ou254C0EEeymDfdGR2qsSg"/>
+        <type xmi:id="_PMi7ei0EEeymDfdGR2qsSg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PMi7ey0EEeymDfdGR2qsSg" name="amount">
+        <modelElement href="surepay-assignment.uml#_Ou2S0S0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PMi7fC0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PMi7fS0EEeymDfdGR2qsSg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PMi7fi0EEeymDfdGR2qsSg" name="isBalanceCorrect">
+      <modelElement href="surepay-assignment.uml#_OxxrAC0EEeymDfdGR2qsSg"/>
+      <stereotypes xmi:id="_PMi7fy0EEeymDfdGR2qsSg" name="StyledElement">
+        <modelElement href="surepay-assignment.uml#_OxySEC0EEeymDfdGR2qsSg"/>
+      </stereotypes>
+      <visibility xmi:id="_PMjigC0EEeymDfdGR2qsSg" label="-"/>
+      <cardinality xmi:id="_PMjigS0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PMjigi0EEeymDfdGR2qsSg">
+        <modelElement href="surepay-assignment.uml#_OxxrAi0EEeymDfdGR2qsSg"/>
+        <type xmi:id="_PMjigy0EEeymDfdGR2qsSg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PMjihC0EEeymDfdGR2qsSg" name="bankStatment">
+        <modelElement href="surepay-assignment.uml#_OxxrAS0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PMjihS0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PMjihi0EEeymDfdGR2qsSg" name="BankStatement">
+          <modelElement href="surepay-assignment.uml#_OuLkcC0EEeymDfdGR2qsSg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PMjihy0EEeymDfdGR2qsSg" name="generateExceptionReport">
+      <modelElement href="surepay-assignment.uml#_OyUdkC0EEeymDfdGR2qsSg"/>
+      <stereotypes xmi:id="_PMjiiC0EEeymDfdGR2qsSg" name="Annotations">
+        <modelElement href="surepay-assignment.uml#_OyVrsS0EEeymDfdGR2qsSg"/>
+      </stereotypes>
+      <visibility xmi:id="_PMjiiS0EEeymDfdGR2qsSg" label="+"/>
+      <cardinality xmi:id="_PMjiii0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PMjiiy0EEeymDfdGR2qsSg">
+        <modelElement href="surepay-assignment.uml#_OyUdlC0EEeymDfdGR2qsSg"/>
+        <type xmi:id="_PMjijC0EEeymDfdGR2qsSg" name="ExceptionReport">
+          <modelElement href="surepay-assignment.uml#_OuUuYC0EEeymDfdGR2qsSg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PMjijS0EEeymDfdGR2qsSg" name="bankStatment">
+        <modelElement href="surepay-assignment.uml#_OyUdkS0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PMjiji0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PMjijy0EEeymDfdGR2qsSg" name="BankStatement">
+          <modelElement href="surepay-assignment.uml#_OuLkcC0EEeymDfdGR2qsSg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PMjikC0EEeymDfdGR2qsSg" name="trackingReport">
+        <modelElement href="surepay-assignment.uml#_OyUdki0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PMjikS0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PMjiki0EEeymDfdGR2qsSg" name="HashMap">
+          <modelElement href="surepay-assignment.uml#_OxSi0C0EEeymDfdGR2qsSg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PMjiky0EEeymDfdGR2qsSg" name="exceptionReportList">
+        <modelElement href="surepay-assignment.uml#_OyUdky0EEeymDfdGR2qsSg"/>
+        <cardinality xmi:id="_PMjilC0EEeymDfdGR2qsSg" label="1" max="1" min="1"/>
+        <type xmi:id="_PMjilS0EEeymDfdGR2qsSg" name="ArrayList">
+          <modelElement href="surepay-assignment.uml#_OwyzkS0EEeymDfdGR2qsSg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

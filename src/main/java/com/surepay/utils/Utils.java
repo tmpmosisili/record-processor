@@ -25,7 +25,7 @@ public class Utils implements UtilityService {
 			 exceptionReport.setDescription(description);
 			 exceptionReportList.add(exceptionReport); 
 		 }
-		 trackingReport.put(transactionReference, "");
+		 trackingReport.put(transactionReference, description);
 		return exceptionReport;
 	}
 	

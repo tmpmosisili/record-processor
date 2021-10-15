@@ -4,6 +4,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.servlet.RequestDispatcher;
+import javax.servlet.http.HttpServletRequest;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.ResponseEntity;
@@ -13,6 +16,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
@@ -62,7 +66,7 @@ public class FileUploadController {
 			this.exceptionReport = (ArrayList<ExceptionReport>) jsonFileStrategy.processRecords(storageService.store(file));
 		}		
 		redirectAttributes.addFlashAttribute("message", 
-				"We have process the following bank statement " + file.getOriginalFilename());
+				"We have processed the following file name - " + file.getOriginalFilename());
 
 		return "redirect:/report";
 	}

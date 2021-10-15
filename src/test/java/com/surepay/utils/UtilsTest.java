@@ -1,5 +1,6 @@
 package com.surepay.utils;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertTrue;
@@ -89,8 +90,9 @@ public class UtilsTest {
 		
 		exceptionReportList.add(exceptionReport);
 		trackingReport.put(new BigInteger("1942655"), "Peter Pan Sword");
-		
-		assertFalse(ReflectionTestUtils.invokeMethod(utility,"generateExceptionReport",bankStatement,trackingReport,exceptionReportList));	
+		String expectedReport = "ExceptionReport [referenceNumber=294261, description=Book John Smith]";
+		String generatedReport = (String) ReflectionTestUtils.invokeMethod(utility,"generateExceptionReport",bankStatement,trackingReport,exceptionReportList).toString();
+		assertEquals(expectedReport,generatedReport);	
 	}
 	
 	
